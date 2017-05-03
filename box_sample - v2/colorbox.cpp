@@ -4,20 +4,20 @@
 using namespace std;
 
 ColorBox::ColorBox(){
-	cout<<"ColorBox ¹w³]«Øºc¦¡³Q©I¥s"<<endl; 
+	cout<<"ColorBox é è¨­å»ºæ§‹å¼è¢«å‘¼å«"<<endl; 
 	color="white";
 }
 ColorBox::ColorBox(string color){
 	this->color=color;
-	cout<<"ColorBox «Øºc¦¡2³Q©I¥s"<<endl; 
+	cout<<"ColorBox ä¸€å€‹åƒæ•¸çš„å»ºæ§‹å¼è¢«å‘¼å«"<<endl; 
 }
 ColorBox::ColorBox(int w,int h, int d, string color):Box(w,h,d){
 	this->color=color;
-	cout<<"ColorBox «Øºc¦¡3³Q©I¥s"<<endl; 
+	cout<<"ColorBox å››å€‹åƒæ•¸çš„å»ºæ§‹å¼è¢«å‘¼å«"<<endl; 
 }
 
 ColorBox::~ColorBox(){
-	cout<<"ColorBox ¸Ñºc¦¡³Q©I¥s"<<endl; 
+	cout<<"ColorBoxè§£æ§‹å¼è¢«å‘¼å«"<<endl; 
 } 
 void ColorBox::set(string color){
 	this->color=color;
